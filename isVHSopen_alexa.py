@@ -17,7 +17,7 @@ def isit():
 
     d['last_updated'] = dt.fromtimestamp(d['last_updated'])
 # DEBUG
-#    d['last_updated'] = d['last_updated'].replace(day=5, hour=16)
+#    d['last_updated'] = d['last_updated'].replace(month=4, day=5, hour=16)
     
     days_since = (dt.today() - d['last_updated']).days
     
